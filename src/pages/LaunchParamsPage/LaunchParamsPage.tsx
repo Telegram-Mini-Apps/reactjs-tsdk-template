@@ -1,8 +1,8 @@
 import { List } from '@telegram-apps/telegram-ui';
+import WebApp from '@twa-dev/sdk';
 import type { FC } from 'react';
 
 import { DisplayData } from '@/components/DisplayData/DisplayData.tsx';
-import WebApp from '@twa-dev/sdk';
 
 export const LaunchParamsPage: FC = () => {
   return (
