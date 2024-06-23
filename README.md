@@ -6,7 +6,7 @@ Mini Apps platform using the following technologies and libraries:
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview)
-- [@tma.js SDK](https://docs.telegram-mini-apps.com/packages/tma-js-sdk)
+- [Telegram SDK](https://core.telegram.org/bots/webapps#initializing-mini-apps)
 - [Telegram UI](https://github.com/Telegram-Mini-Apps/TelegramUI)
 - [Vite](https://vitejs.dev/)
 
@@ -70,15 +70,6 @@ To view the application, you need to open the `Local`
 link (`http://localhost:5173/reactjs-template` in this example) in your browser:
 
 ![Application](assets/application.png)
-
-It is important to note that some libraries in this template, such as `@tma.js/sdk`, are not
-intended for use outside of Telegram.
-
-Nevertheless, they appear to function properly. This is because the `src/mockEnv.ts` file, which is
-imported in the application's entry point (`src/index.ts`), employs the `mockTelegramEnv` function
-to simulate the Telegram environment. This trick convinces the application that it is running in a
-Telegram-based environment. Therefore, be cautious not to use this function in production mode
-unless you fully understand its implications.
 
 ### Run Inside Telegram
 
@@ -243,5 +234,4 @@ project's information.
 ## Useful Links
 
 - [Platform documentation](https://docs.telegram-mini-apps.com/)
-- [@tma.js/sdk-react documentation](https://docs.telegram-mini-apps.com/packages/tma-js-sdk-react)
 - [Telegram developers community chat](https://t.me/devs)
