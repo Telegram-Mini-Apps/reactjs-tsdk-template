@@ -17,7 +17,6 @@ import './TONConnectPage.css';
 
 export const TONConnectPage: FC = () => {
   const wallet = useTonWallet();
-
   if (!wallet) {
     return (
       <Placeholder
