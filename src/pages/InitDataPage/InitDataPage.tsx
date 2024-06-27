@@ -5,8 +5,6 @@ import type { WebAppUser } from '@twa-dev/types';
 
 import { DisplayData, type DisplayDataRow } from '@/components/DisplayData/DisplayData.tsx';
 
-import './InitDataPage.css';
-
 // TODO: @twa-dev/sdk is outdated, as well as @twa-dev/types.
 interface ExactWebAppUser extends WebAppUser {
   allows_write_to_pm?: boolean;
